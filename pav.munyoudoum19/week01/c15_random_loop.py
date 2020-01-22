@@ -1,4 +1,4 @@
 import random
-num=int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 for i in range(num):
-    print(random.randrange(0,2))
+    print(random.randrange(0, 2))
