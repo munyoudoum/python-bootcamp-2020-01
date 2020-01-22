@@ -16,4 +16,3 @@ def pyramid(level, symbol, is_reverse=False):
                 print(" "*space+symbol*num)
                 num-=2
                 space+=1
-pyramid(3,"A", is_reverse=True)
