@@ -10,7 +10,7 @@ def spiral_square(map):
             print(map[i][n-1], end=" ")
         for i in range(n-2, c - 1, -1):
             print(map[n-1][i], end=" ")
-        n -= 1 
+        n -= 1
         for i in range(n-1, r-1, -1):
             print(map[i][c], end=" ")
         c += 1
