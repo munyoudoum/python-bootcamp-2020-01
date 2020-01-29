@@ -1,8 +1,5 @@
-import json
-
-
 def dict_count(ls):
     d = {}
     for i in ls:
-        d[i] = ls.count(i)
-    return json.dumps(d)
+        d[str(i)] = ls.count(i)
+    return d
