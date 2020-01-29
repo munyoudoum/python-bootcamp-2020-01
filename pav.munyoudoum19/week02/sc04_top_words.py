@@ -28,4 +28,3 @@ def top_words(string):
     newls = sorted(new, key=counts.get, reverse=True)
     res = list(dict.fromkeys(newls))
     return res[:3]
-print(top_words("If It's good! ed3"))
