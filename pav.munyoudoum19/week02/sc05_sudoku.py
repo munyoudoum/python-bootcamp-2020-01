@@ -11,7 +11,7 @@ def sudoku(x):
                     check.append(num)
             if sorted(check) != list(range(1, 10)):
                 return "Unfinished"
-    
+
     for col in range(9):
         checkv = []
         for row in range(9):
@@ -37,12 +37,3 @@ def sudoku(x):
         if sorted(checkx) != list(range(1, 10)):
             return "Unfinished"
     return "Finished"
-print(sudoku([[1,2,3,4,5,6,7,8,9],
-    [2,3,4,5,6,7,8,9,1],
-    [3,4,5,6,7,8,9,1,2],
-    [4,5,6,7,8,9,1,2,3],
-    [5,6,7,8,9,1,2,3,4],
-    [6,7,8,9,1,2,3,4,5],
-    [7,8,9,1,2,3,4,5,6],
-    [8,9,1,2,3,4,5,6,7],
-    [9,1,2,3,4,5,6,7,8]]))
