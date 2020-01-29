@@ -1,5 +1,7 @@
 import collections
 import re
+
+
 def top_words(string):
     if not string.strip():
         return []
