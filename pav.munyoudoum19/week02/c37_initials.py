@@ -1,2 +1,2 @@
 def initials(ls):
-    return [x[0] for x in ls]
+    return [x[0].upper() for x in ls]
