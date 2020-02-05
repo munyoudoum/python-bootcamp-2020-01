@@ -1,0 +1,54 @@
+DOCUMENTATION:
+  - https://www.pygame.org/docs/
+  - RGB color LIST: https://www.rapidtables.com/web/color/RGB_Color.html
+    EXAMPLE: (255, 255, 255) == WHITE; (0, 0, 0) == BLACK
+             (128,0,128) == PURPLE
+
+INSTALLATION:
+  pip3.7 install pygame==2.0.0.dev3
+
+  (or)
+
+  pip3.8 install pygame==2.0.0.dev3
+
+  (or)
+
+  pip3 install pygame==2.0.0.dev3
+
+  (or)
+
+  pip install pygame
+
+REQUIREMENTS:
+
+  You will submit on folder (username/week03/bonus/snake/)
+  in this folder you must add:
+    - README.txt (all your explanations)
+    - snake.py (the script to run to test your game)
+    - all others files (like code or screenshots / images) for this project.
+    - for this project you can also add different .py files for others apps.
+
+    - DON'T FORGET TO ADD DESCRIPTIONS AND EXPLANATIONS OF THE PROJECT
+      IN THE README FILE!
+
+BONUS SCORE IDEAS:
+  - Reorganize this code (maybe you could use class)
+  - Change the variables names
+  - Play with the colors (snake/appleimage/background/text)
+  - Try to add a menu at the beginning
+  - Try to improve the game and add anything you want like:
+    - Ennemies
+    - Bonus objects
+    - Speed limit
+    - New snake (with AI)
+    - 2v2 MODE
+    - ADD SOUNDS AND MUSICS!
+
+NOTES:
+  - IF YOU WANT TO START PROJECT FROM SCRATCH YOU CAN!
+  - YOU CAN DELETE EVERYTHING YOU WANT.
+
+  - Try new things
+  - Don't hesitate to add / update or remove code.
+  - Don't hesitate to add screenshots of your experimentations in this folder
+  - Have fun and use your creative mind :)

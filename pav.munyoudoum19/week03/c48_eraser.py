@@ -1,4 +1,5 @@
 import os
+import shutil
 
 
 class Eraser():
@@ -9,14 +10,11 @@ class Eraser():
             return 1
         else:
             return 0
+
     @staticmethod
     def remove_folder(folder_name):
         if os.path.exists(folder_name):
-            os.rmdir(folder_name)
+            shutil.rmtree(folder_name)
             return 1
         else:
             return 0
-
-
-print(Eraser().remove_folder("random_folder"))
-print(Eraser().remove_file("abc.txt"))

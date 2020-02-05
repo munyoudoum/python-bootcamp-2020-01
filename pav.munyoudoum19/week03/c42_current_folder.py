@@ -13,4 +13,3 @@ def current_folder():
             dic['type'] = 'Folder'
         res.append(dic)
     return res
-print(current_folder())
