@@ -1,27 +1,19 @@
 import turtle
 import random
 
-
+sides = int(input("Enter a number to see art: "))
 turtle.tracer(0, 0)
 wn = turtle.Screen()
 wn.colormode(255)
-turtle.bgcolor("black")
-alex = turtle.Turtle()
-alex.speed(10)
-alex.goto(0,0)
-alex.pensize(0)
-alex.ht()
-for i in range(400):
-    alex.color(random.randrange(256),random.randrange(256),random.randrange(256))
-    alex.goto(round(random.gauss(0,100),0),round(random.gauss(0,100),0))
-    x = alex.xcor()
-    y = alex.ycor()
-    for j in range(25):
-                s = round(random.gauss(0,5), 0)
-                t = round(random.gauss(0,5), 0)
-                alex.color(random.randrange(256),random.randrange(256),random.randrange(256))
-                alex.pensize(0)
-                alex.goto(x + s, y + t)
-    alex.goto(s,t)
-turtle.update()
+turtle.speed(0)
+
+def shape(size, sides):
+    for i in range(sides):
+        turtle.forward(size)
+        turtle.left(90)
+
+
+for i in range(100):
+    shape(5*i, sides)
+    turtle.left(i)
 wn.exitonclick()

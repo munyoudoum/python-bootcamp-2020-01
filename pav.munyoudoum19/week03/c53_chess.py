@@ -4,7 +4,7 @@ def gen_chessboard(height=8, width=8):
     res = []
     for row in range(height):
         res.append([])
-        for col in range(width//2):
+        for _ in range(width//2):
             if row % 2 == 0:
                 res[row].append(1)
                 res[row].append(0)
